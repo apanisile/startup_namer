@@ -70,17 +70,6 @@ class _RandomWordsState extends State<RandomWords> {
       appBar: AppBar(
         title: const Text('Startup Name Generator'),
       ),
-      drawer: Drawer(
-        child: ListView(
-          padding: EdgeInsets.zero,
-          children: <Widget>[
-            DrawerHeader(
-              decoration: BoxDecoration(color: Colors.deepPurpleAccent[700]),
-              child: Text("Drawer Heading"),
-            )
-          ],
-        ),
-      ),
       body: _buildSuggestions(),
     );
   }
